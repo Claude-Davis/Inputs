@@ -6,11 +6,11 @@ using namespace std;
 
 int main() {
     //List food options
-    cout << "1: Salad" << endl;
-    cout << "2: Steak" << endl;
-    cout << "3: Orange Chicken" << endl;
-    cout << "4: Shrimp Alfredo" << endl;
-    cout << "5: Three-bean Chili" << endl;
+    cout << "1: Salad ($14.59)" << endl;
+    cout << "2: Steak ($32.59)" << endl;
+    cout << "3: Orange Chicken ($18.99)" << endl;
+    cout << "4: Shrimp Alfredo ($30.49)" << endl;
+    cout << "5: Three-bean Chili ($14.59)" << endl;
     //Food choice. 5 options
     int food;
     cout << "Choose your food: ";
@@ -37,10 +37,10 @@ int main() {
     cout << " " << endl;
     
     //List drink options
-    cout << "1: Water" << endl;
-    cout << "2: Tea" << endl;
-    cout << "3: Lemonade" << endl;
-    cout << "4: Coca-Cola" << endl;
+    cout << "1: Water ($.00)" << endl;
+    cout << "2: Tea ($3.99)" << endl;
+    cout << "3: Lemonade ($3.99)" << endl;
+    cout << "4: Coca-Cola ($3.99)" << endl;
     
     //Drink choice. 4 options
     int drink;
