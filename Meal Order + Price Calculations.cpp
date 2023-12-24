@@ -5,7 +5,13 @@
 using namespace std;
 
 int main() {
-        //Food choice. 5 options
+    //List food options
+    cout << "1: Salad" << endl;
+    cout << "2: Steak" << endl;
+    cout << "3: Orange Chicken" << endl;
+    cout << "4: Shrimp Alfredo" << endl;
+    cout << "5: Three-bean Chili" << endl;
+    //Food choice. 5 options
     int food;
     cout << "Choose your food: ";
     cin >> food;
@@ -29,6 +35,12 @@ int main() {
     
     //Space (break) between food and drink selection
     cout << " " << endl;
+    
+    //List drink options
+    cout << "1: Water" << endl;
+    cout << "2: Tea" << endl;
+    cout << "3: Lemonade" << endl;
+    cout << "4: Coca-Cola" << endl;
     
     //Drink choice. 4 options
     int drink;
@@ -68,9 +80,9 @@ int main() {
     }
 
     // Input values from the user and save them in the array
-    cout << "Enter " << numValues << " numerical values:" << endl;
+    cout << "Enter " << "the price for each item:" << endl;
     for (int i = 0; i < numValues; ++i) {
-        cout << "Value " << i + 1 << ": ";
+        cout << "Item " << i + 1 << ": ";
         cin >> values[i];
     }
 
