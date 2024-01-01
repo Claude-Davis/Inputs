@@ -1,5 +1,5 @@
-#including <iostream>
-using namespace std
+#include <iostream>
+using namespace std;
 
 int toSeconds(int days) {
     return(days*24*60*60);
